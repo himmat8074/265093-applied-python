@@ -16,3 +16,7 @@ print("------------------------")
 print(5**2)
 print(4**3**2)
 print("------------------------")
+
+#square root also can be determined using exponential
+print(9**(1/2)) 
+print(8**(1/3))
