@@ -22,3 +22,13 @@ print("------------------------\n")
 print("one" * 2)
 print(5 * '2')
 print("------------------------\n")
+
+#variables 
+username = "beinghsr"
+user_mail = "hsr@mail.com"
+print("Nmae: " + username + "\nMail: " + user_mail)
+print("------------------------\n")
+var_a = 5
+var_b = -2
+print("var_a + var_b: " + var_a + var_b)
+print("------------------------\n")
