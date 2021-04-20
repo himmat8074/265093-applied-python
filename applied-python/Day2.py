@@ -30,5 +30,25 @@ print("Nmae: " + username + "\nMail: " + user_mail)
 print("------------------------\n")
 var_a = 5
 var_b = -2
-print("var_a + var_b: " + var_a + var_b)
+print("Sum of var_a and var_b is:")
+print(var_a + var_b)
+print("------------------------\n")
+
+#inputs
+user_name = input("Enter user name: ")
+print("User name entered is " + user_name)
+#int function to convert input into int
+user_age = int(input("Enter user age: "))
+print("User age is: " ) 
+print( user_age)
+print("------------------------\n")
+
+#in-place or short hand operators
+x = 5
+x -= 2
+print(x)
+#it can also be used for strings
+y = "happy"
+y += " bunny"
+print(y)
 print("------------------------\n")
