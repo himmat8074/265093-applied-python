@@ -23,12 +23,12 @@ to_read_from.close()
 print("------------------------\n")
 
 #a mode will append and not delete the existing content
-# adding_this = open("applied-python\sample.txt", "a")
-# adding_this.append("In the series he is the eldest son of the great Ragnar Lothbrok.")
-# adding_this.close
+adding_this = open("applied-python\sample.txt", "a")
+adding_this.write("In the series he is the eldest son of the great Ragnar Lothbrok.")
+adding_this.close
 
 #using with will always close the file even if exception occur
 with open("applied-python\sample.txt") as f:
     print(f.read())
     #no need to close the file as with does it automatically
-    
+print("------------------------\n")
