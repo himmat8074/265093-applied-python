@@ -49,3 +49,33 @@ print("------------------------\n")
 
 ek_ao = [i**2 for i in range(4) if i%2 == 0]
 print(ek_ao)
+print("------------------------\n")
+
+#string formatting
+num = [7, 6, 8]
+msg = "Numbers: {0} {1} {2}".format(num[0], num[1], num[2])
+print(msg)
+print("------------------------\n")
+
+print("{0}{1}{0}".format("abra", "cad"))
+print("------------------------\n")
+
+#string functions
+#join function
+print(",".join(["vikings","spartans","dothraki"]))
+
+#split 
+print("Vikings, Spartans, Dothrakis".split("."))
+
+#replace 
+print("Bjorn Lothbrok".replace("Lothbrok", "Ironside"))
+
+#startwith and endswith
+print("Ivar the Boneless was the youngest of sons of Ragnar".startswith("Ivar"))
+print("Ivar the Boneless was the youngest of sons of Ragnar".endswith("Ragnar"))
+
+#upper and lower case
+print("Lagartha".upper())
+print("InGRId".lower())
+
+print("------------------------\n")

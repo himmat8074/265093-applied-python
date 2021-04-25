@@ -9,7 +9,7 @@
 # S9
 # A12
 
-file = open("applied-python/books.txt", "r")
+file = open("applied-python/src/books.txt", "r")
 
 lines = file.readlines()
 for line in lines:

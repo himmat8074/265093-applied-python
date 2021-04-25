@@ -125,5 +125,5 @@ print("------------------------\n")
 
 #file handling
 #to open a file
-file_ptr = open("applied-python\sample.txt", "w")
+file_ptr = open("applied-python/src/sample.txt", "w")
 file_ptr.close()
