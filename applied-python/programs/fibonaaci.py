@@ -1,4 +1,5 @@
-#a program to take N (variable num in code template) positive numbers as input, and recursively calculate and output the first N numbers of the Fibonacci sequence (starting from 0).
+#a program to take N (variable num in code template) positive numbers as input,
+#and recursively calculate and output the first N numbers of the Fibonacci sequence (starting from 0).
 
 num = int(input("Enter a number: "))
 
