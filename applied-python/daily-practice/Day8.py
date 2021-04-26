@@ -99,3 +99,74 @@ a = {1, 2}
 
 print(list(product(range(3), a)))
 print("------------------------\n")
+
+#classes
+class cats:
+    def __init__(self, color, legs):
+        self.color = color
+        self.legs = legs
+    
+    def meaw(self):
+        print("meeeaaawwwooo...\n")
+
+tom = cats("grey", 4)
+print(tom.color)
+
+meena = cats("white", 2)
+meena.meaw()
+print("------------------------\n")
+
+#inheritance
+class cars:
+    def __init__(self, company, model, color):
+        self.company = company
+        self.model = model
+        self.color = color
+
+class Ford(cars):
+    def start(self):
+        print("Ford is ignited...\n")
+
+class maruti(cars):
+    def start(self):
+        print("Maruti is ignited...\n")
+
+mustang = Ford("Ford", "Mustang GT", "Black")
+alto = maruti("Maruti", "Alto", "Red")
+
+print(mustang.color +" "+ mustang.company +" "+ mustang.model)
+mustang.start()
+
+print(alto.color +" "+ alto.company +" "+ alto.model)
+alto.start()
+
+print("------------------------\n")
+
+#overriding 
+class a:
+    def val(self):
+        x = 5
+        print(x)
+
+class b(a):
+    def val(self):
+        x = 10
+        print(x)
+
+b().val()
+print("------------------------\n")
+
+#super method
+class c:
+    def val(self):
+        x = 5
+        print(x)
+
+class d(a):
+    def val(self):
+        x = 10
+        print(x)
+        super().val()
+
+d().val()
+print("------------------------\n")
